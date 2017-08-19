@@ -10,6 +10,9 @@ body {
     font-family: 'Proxi';
     font-size: 15px;
 }
+a, a:visited {
+   color:inherit;
+}
 .block {
     width: 50%;
     height: 100%
