@@ -173,3 +173,6 @@ a, a:visited {
     margin: 5px 5px 5px 0;
     left: auto;
 }
+button:focus{
+  outline: 0;
+}
