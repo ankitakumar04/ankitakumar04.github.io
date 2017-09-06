@@ -174,5 +174,5 @@ a, a:visited {
     left: auto;
 }
 .button:focus{
-  outline: 0;
+  outline: none;
 }
