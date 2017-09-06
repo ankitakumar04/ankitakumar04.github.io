@@ -164,3 +164,12 @@ a, a:visited {
     display: inline-block;
     margin: 5px 5px 5px 0;
 }
+.button {
+    border: 1px solid #d4d4d4;
+    background-color: inherit;
+    padding: 4px 10px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 5px 5px 5px 0;
+    left: auto;
+}

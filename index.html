@@ -78,6 +78,14 @@
                 <div class="experience__time">May 2017 — July 2017</div>
                 <div class="experience__location">Bangalore, India</div>
               </div>
+              <button class="button" onclick="myFunction()">My work</button>
+              <div id="myDIV" style="display:none">
+                - Adding support for GoLang in HackerRank For Work. <br/>
+                - Developed a Ruby Gem for Image Processing.<br/>
+                - Handled file uploads with AWS SDK.<br/>
+                - Fixed various bugs in the Customer-facing module. <br/>
+                - Fixed Code Stubs generated in HackerRank for Work. <br/>
+              </div>
             </div>
             <!-- </div> -->
           </div>
@@ -147,6 +155,16 @@
         </div>
       </div>
     </section>
+    <script>
+    function myFunction() {
+    var x = document.getElementById('myDIV');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+    }
+</script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
