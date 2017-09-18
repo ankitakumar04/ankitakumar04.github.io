@@ -176,3 +176,6 @@ a, a:visited {
 .button:focus{
   outline: none;
 }
+.copyright {
+  font-size: 15px;
+}
